@@ -1,0 +1,30 @@
+body{
+    direction:rtl;  
+}
+
+#left{
+    float:left;
+    background:seagreen;
+    margin-right:10%;
+}
+#right{
+    float:right;
+    background:slateblue;
+    margin-left:10%;
+}
+.box{
+    width:40%;
+    text-align:center;
+}
+h2{
+    height:300px;
+    text-align:center;
+}
+span{
+    color:yellow;
+}
+h2 span{
+    color:blue;
+}
+
+
