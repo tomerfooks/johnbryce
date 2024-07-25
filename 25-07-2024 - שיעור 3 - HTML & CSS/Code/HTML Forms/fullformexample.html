@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        HTML Forms
+    </title>
+</head>
+
+<body>
+
+    <form action="thank-you-page.html">
+
+        <label> Enter username
+            <input type="text" id="username" required placeholder="enter username">
+        </label>    
+
+        <label> Enter your age
+            <input type="number" id="age" min="18" max="120" placeholder="enter age">
+        </label>
+
+        <label> Enter date
+            <input type="date" id="date">
+        </label>
+
+        <label> Enter your password
+            <input type="password" id="pass" placeholder="Enter your password">
+        </label>
+
+        <label>Choose your gender
+        <select required> 
+            <option disabled selected>(placeholder) Choose one</option>
+            <option>female</option>
+            <option>male</option>
+            <option>other/non-relevant</option>
+        </select>
+    </label>
+    
+        <button type="reset">Clear Fields.</button>
+        <button type="submit">Send Form!</button>
+
+    </form>
+
+    <style>
+   
+        label{
+            display: block;
+            margin-bottom:10px;
+        }
+        input{
+            width:200px;
+        }
+    </style>
+
+</body>
+
+</html>
